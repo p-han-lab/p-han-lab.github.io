@@ -1,0 +1,164 @@
+/* CityUHK Template 3.0: restrained academic layout and consistent type scale. */
+html{scroll-padding-top:130px}
+body.cityu-template-3{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65;background:#fff;color:#303030}
+.cityu-header .container-max,.cityu-menu .container-max,.cityu-footer .container-xxl{max-width:1280px;margin-left:auto;margin-right:auto}
+.cityu-header .cityu-header-lg-name,.cityu-header .cityu-header-md-name{font-family:Arial,Helvetica,sans-serif}
+.cityu-header .cityu-header-lg-name a,.cityu-header .cityu-header-md-name a{font-size:24px;font-weight:600;line-height:1.3;letter-spacing:0}
+.cityu-menu .nav-link{font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;letter-spacing:0;text-transform:none}
+.cityu-menu .nav-link[aria-current="page"]{font-weight:700;text-decoration:underline;text-underline-offset:7px}
+.group-site{max-width:1280px;padding:36px 24px 64px;margin:0 auto;font:16px/1.65 Arial,Helvetica,sans-serif;color:#303030;background:#fff;min-height:440px}
+.group-site *{box-sizing:border-box}
+.group-site h1,.group-site h2,.group-site h3{font-family:Arial,Helvetica,sans-serif;line-height:1.35;font-style:normal;letter-spacing:0;text-transform:none;color:#303030;background:none;-webkit-text-fill-color:currentColor;display:block;padding:0}
+.group-site h1{font-size:28px;font-weight:600;margin:0 0 20px}
+.group-site h2{font-size:22px;font-weight:600;margin:0 0 16px;padding-bottom:9px;border-bottom:1px solid #d9d9d9}
+.group-site h3{font-size:18px;font-weight:600;margin:0 0 12px}
+.group-site p{font-size:16px;line-height:1.65;margin:0 0 16px;padding:0;font-weight:400}
+.group-site a{color:#9b254f;text-decoration:underline;text-underline-offset:3px;font-size:inherit;font-weight:inherit;overflow-wrap:anywhere}
+.group-site a:hover{color:#612139}
+.group-site a[target="_blank"]:after{content:none}
+.group-site section{margin:0 0 32px;padding:0}
+.group-site .welcome{max-width:850px;margin-bottom:34px}
+.group-site .affiliation{margin-top:-9px;margin-bottom:20px;color:#555;font-size:16px}
+.group-site .home-columns{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(250px,1fr);gap:48px;align-items:start}
+.group-site aside{border-left:1px solid #e0e0e0;padding-left:28px}
+.group-site aside h2{font-size:20px}
+.group-site aside p,.group-site aside li{font-size:16px}
+.group-site .empty-note{color:#666;font-style:normal}
+.group-site .source-note{color:#606060;font-size:15px;margin-top:16px}
+.group-site ul,.group-site ol{font-size:16px;line-height:1.65;margin:0 0 20px;padding-left:24px}
+.group-site li{font-size:16px;line-height:1.65;margin-bottom:8px}
+.group-site .plain-links{list-style:none;padding:0}
+.group-site .publication-list{padding-left:25px}
+.group-site .publication-list li{padding-left:5px;margin-bottom:25px}
+.group-site .publication-list p{margin:6px 0 0;color:#555}
+.group-site .dated-list{list-style:none;padding:0;margin:0}
+.group-site .dated-list li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;margin-bottom:18px}
+.group-site .dated-list time{color:#555;font-variant-numeric:tabular-nums}
+.group-site .dated-list p{margin:5px 0 0}
+.group-site.inner-page{max-width:1280px}
+.group-site.inner-page>p{max-width:85ch}
+.group-site.inner-page>section{max-width:none}
+.group-site .publication-list{max-width:100ch}
+.cityu-footer{font-family:Arial,Helvetica,sans-serif}
+.cityu-footer .cityu-footer-copyright,.cityu-footer .cityu-footer-links,.cityu-footer .cityu-footer-media{font-size:14px;line-height:1.6}
+.lab-skip{position:absolute;top:-100px;left:16px;z-index:9999;background:white;color:#222;padding:10px}
+.lab-skip:focus{top:10px}
+a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4px}
+@media(max-width:767px){.group-site{padding:28px 22px 40px}.group-site h1{font-size:26px}.group-site h2{font-size:22px}.group-site .home-columns{grid-template-columns:1fr;gap:0}.group-site aside{border-left:0;border-top:1px solid #ddd;padding:26px 0 0}.group-site .welcome{margin-bottom:28px}.cityu-header .cityu-header-md-name a{font-size:22px}.group-site .dated-list li{grid-template-columns:1fr;gap:2px}.group-site .publication-list{padding-left:20px}}
+
+/* HAN identity: a compact illustration alongside the existing academic layout. */
+.cityu-header .lab-name{display:block;font-size:24px;line-height:1.3;font-weight:600}
+.cityu-header .lab-expansion{display:block;font-size:16px;line-height:1.5;font-weight:400;margin-top:3px;white-space:normal}
+.group-site .welcome{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:36px;align-items:center}
+.group-site .welcome-copy{min-width:0}
+.group-site .welcome h1{margin-bottom:8px}
+.group-site .lab-focus{font-size:20px;line-height:1.4;margin:0 0 18px;color:#6e3448}
+.group-site .affiliation{margin-top:0}
+.group-site .planet-panel{margin:0;text-align:center;align-self:center}
+.group-site .planet-illustration{display:block;width:100%;max-width:260px;height:auto;margin:0 auto}
+.group-site .planet-panel figcaption{font:600 18px/1.5 Arial,Helvetica,sans-serif;color:#303030;margin-top:-2px;padding:0;background:none}
+.group-site .planet-panel figcaption span{color:#48715d}
+@media(max-width:767px){.cityu-header .lab-name{font-size:22px}.cityu-header .lab-expansion{font-size:16px}.group-site .welcome{grid-template-columns:1fr;gap:4px}.group-site .lab-focus{font-size:18px}.group-site .planet-panel{display:flex;align-items:center;justify-content:center;gap:18px;margin:2px 0 18px;text-align:left}.group-site .planet-illustration{width:132px;margin:0}.group-site .planet-panel figcaption{font-size:17px;margin:0}}
+@media(max-width:350px){.group-site .planet-illustration{width:110px}.group-site .planet-panel{gap:12px}.group-site .planet-panel figcaption{font-size:16px}}
+/* Keep the shared footer readable without scroll-triggered translation. */
+.cityu-footer [data-aos]{transform:none!important;opacity:1!important;transition:none!important}
+
+/* Nitrogen labels retain a readable size independently of the SVG. */
+.group-site .planet-art{position:relative;width:260px;max-width:100%;margin:0 auto}
+.group-site .planet-art .planet-illustration{width:100%;max-width:none;margin:0}
+.group-site .nitrogen-label{position:absolute;display:inline-block;font:600 20px/1.15 Arial,Helvetica,sans-serif;color:#244f40;background:#fff;border:1px solid #d6e2da;border-radius:5px;padding:4px 6px;white-space:nowrap;box-shadow:0 1px 3px #244f400a}
+.group-site .nitrogen-label sub,.group-site .nitrogen-label sup{font-size:70%;line-height:0;position:relative;vertical-align:baseline}
+.group-site .nitrogen-label sub{bottom:-.25em}
+.group-site .nitrogen-label sup{top:-.45em}
+.group-site .nitrogen-gas{top:0;left:50%;transform:translateX(-50%)}
+.group-site .nitrogen-ammonium{top:55%;left:-6px}
+.group-site .nitrogen-nitrate{top:40%;right:-6px}
+
+/* Four research themes, with subject-specific illustrations and quiet color. */
+.group-site .research-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:28px 0}
+.group-site .research-topic{--topic-color:#28654c;--topic-wash:#dceee3;--topic-background:#f2f8f4;margin:0;padding:24px;border:1px solid var(--topic-wash);border-left:4px solid var(--topic-color);border-radius:3px;background:var(--topic-background)}
+.group-site .topic-change{--topic-color:#67508b;--topic-wash:#e8e1f3;--topic-background:#f7f4fb}
+.group-site .topic-climate{--topic-color:#9b483b;--topic-wash:#f3dfd8;--topic-background:#fcf5f1}
+.group-site .topic-water{--topic-color:#286580;--topic-wash:#dcebf3;--topic-background:#f1f7fb}
+.group-site .topic-heading{display:grid;grid-template-columns:68px minmax(0,1fr);gap:16px;align-items:center;margin-bottom:18px}
+.group-site .topic-art{display:block;width:68px;height:68px;color:var(--topic-color)}
+.group-site .research-topic h2{font-size:20px;line-height:1.35;color:var(--topic-color);border:0;padding:0;margin:0}
+.group-site .research-topic p{font-size:16px;line-height:1.65;color:#303030;margin:0}
+@media(max-width:767px){.group-site .planet-panel{flex-direction:column;gap:5px;text-align:center;margin-top:10px}.group-site .planet-art{width:220px;margin:0 auto}.group-site .nitrogen-label{font-size:18px;padding:4px 6px}.group-site .research-topics{grid-template-columns:1fr;gap:18px}.group-site .research-topic{padding:20px}.group-site .topic-heading{grid-template-columns:58px minmax(0,1fr);gap:14px}.group-site .topic-art{width:58px;height:58px}}
+
+/* PI portrait; other member photos can be added as they become available. */
+.group-site .pi-profile{display:grid;grid-template-columns:150px minmax(0,1fr);gap:28px;align-items:start;margin:20px 0 8px}
+.group-site .pi-portrait{display:block;width:150px;height:auto;max-width:100%;border-radius:3px;border:1px solid #e0e0e0}
+.group-site .pi-details{padding-top:3px;min-width:0}
+.group-site .pi-details p:last-child{margin-bottom:0}
+@media(max-width:575px){.group-site .pi-profile{grid-template-columns:1fr;gap:20px}.group-site .pi-portrait{width:150px}.group-site .pi-details{padding-top:0}}
+
+/* Centered desktop canvas with comfortable outer margins. */
+@media(min-width:768px){
+  .group-site{width:94%;padding-left:24px;padding-right:24px}
+  .cityu-header .container-max,.cityu-menu .container-max,.cityu-footer .container-xxl{width:94%;padding-left:24px;padding-right:24px}
+  .group-site .welcome{column-gap:48px}
+  .group-site .welcome-copy>p{max-width:90ch}
+  .group-site .home-columns{grid-template-columns:minmax(0,1fr) minmax(280px,350px);gap:56px}
+  .group-site .research-topics{gap:28px}
+}
+
+/* Readable navigation and body text at each screen size. */
+.cityu-menu .cityu-menu-main .nav-link{font-size:20px;font-weight:600;line-height:1.4}
+.cityu-menu .cityu-menu-main .nav-link[aria-current="page"]{font-weight:700}
+.group-site{--reading-size:18px;font-size:var(--reading-size)}
+.group-site p,.group-site ul,.group-site ol,.group-site li,
+.group-site aside p,.group-site aside li,.group-site .affiliation,
+.group-site .research-topic p{font-size:var(--reading-size)}
+.group-site h2{font-size:24px}
+.group-site h3,.group-site aside h2{font-size:22px}
+.group-site .research-topic h2{font-size:22px}
+.group-site .source-note{font-size:16px}
+.cityu-header .lab-expansion{font-size:18px}
+@media(min-width:1200px){.cityu-menu .cityu-menu-main .nav-link{padding:14px 22px;min-height:56px}}
+@media(max-width:767px){.group-site{--reading-size:17px}.group-site h2{font-size:22px}.group-site h3,.group-site aside h2,.group-site .research-topic h2{font-size:20px}.cityu-header .lab-expansion{font-size:17px}}
+
+/* Current members: reserved portraits and space for future contact links. */
+.group-site .members-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 26px;margin:22px 0 8px}
+.group-site .member{display:grid;grid-template-columns:96px minmax(0,1fr);gap:18px;align-items:start;min-width:0}
+.group-site .photo-placeholder,.group-site .member-photo{display:flex;align-items:center;justify-content:center;width:96px;height:128px;border:1px solid #dce2de;border-radius:3px;background:#f3f5f3}
+.group-site .photo-placeholder{color:#657069;text-align:center;font-size:15px;line-height:1.5}
+.group-site .member-photo{object-fit:cover;object-position:center top}
+.group-site .member-details{min-width:0;padding-top:3px}
+.group-site .member h3{font-size:20px;margin:0 0 8px}
+.group-site .member-note{font-size:17px;color:#555;line-height:1.5;margin:0 0 10px}
+.group-site .member-links{font-size:16px;line-height:1.55;margin:0}
+.group-site .alumni-list{list-style:none;padding:0;margin:0;max-width:760px}
+.group-site .alumni-list li{display:grid;grid-template-columns:minmax(220px,1fr) minmax(210px,1fr);gap:24px;border-bottom:1px solid #eee;padding:10px 0;margin:0}
+.group-site .alumni-list li>span:last-child{color:#555}
+.group-site .alumni-name{font-weight:600}
+/* Gallery remains empty until real group photos are supplied. */
+.group-site .gallery-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:240px;padding:32px;border:1px solid #dce2de;background:#f6f8f6;margin:28px 0}
+.group-site .gallery-empty svg{color:#6d8776}
+.group-site .gallery-empty p{margin:0;color:#555;text-align:center}
+.group-site .gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.group-site .gallery-item{margin:0}
+.group-site .gallery-item img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.group-site .gallery-item figcaption{font-size:17px;line-height:1.5;padding:12px 0;color:#555;background:none}
+@media(max-width:1099px){.group-site .members-grid,.group-site .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){.group-site .members-grid{grid-template-columns:1fr;gap:24px}.group-site .gallery-grid{grid-template-columns:1fr}.group-site .member-note{font-size:17px}.group-site .alumni-list li{grid-template-columns:1fr;gap:1px}.group-site .gallery-empty{min-height:200px}}
+
+/* Reveal member email only after selecting a name or portrait. */
+.group-site .member-photo-button{display:block;align-self:start;margin:0;padding:0;border:0;border-radius:3px;background:none;cursor:pointer;color:inherit;font:inherit}
+.group-site .member-photo-button:hover .photo-placeholder,.group-site .member-photo-button:hover .member-photo{border-color:#9b254f}
+.group-site .member-name{display:inline;padding:0;margin:0;border:0;background:none;color:inherit;font:inherit;line-height:inherit;text-align:left;cursor:pointer}
+.group-site .member-name:hover{text-decoration:underline;text-underline-offset:4px;color:#9b254f}
+.group-site .email-icon{display:inline-block;margin-left:7px;color:#9b254f;vertical-align:baseline}
+.group-site .member-email{font-size:16px;line-height:1.55;margin:12px 0 0;color:#555;overflow-wrap:anywhere}
+.group-site .member-email[hidden]{display:none}
+.group-site .member-contact-note{font-size:16px;color:#626963;margin:0 0 16px}
+
+.group-site .visiting-photo{height:96px;object-fit:contain;background:none}
+
+.group-site .home-columns>div:first-child{display:flex;flex-direction:column;align-self:stretch}
+.group-site .affiliation-logos{display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin-top:auto;padding-top:32px}
+.group-site .affiliation-logos a{display:block}
+.group-site .see-logo{display:block;width:300px;max-width:100%;height:90px;object-fit:cover;object-position:center}
+.group-site .sklmeh-logo{display:block;width:108px;height:auto}
+.group-site .affiliation-logos a:first-child{max-width:100%}
+@media(max-width:767px){.group-site .affiliation-logos{margin:0 0 30px;padding-top:16px;gap:20px}.group-site .see-logo{width:260px;height:78px}}
