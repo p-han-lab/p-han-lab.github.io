@@ -4,7 +4,8 @@
 - PI biography and research: https://scholars.cityu.edu.hk/en/persons/pinghan/ .
 - PI portrait (`img/penny-han.jpg`): https://scholars.cityu.edu.hk/files-asset/509554894/Penny-cityU-5.jpg .
 - Full publication list: https://scholar.google.com/citations?hl=en&user=BTB54fsAAAAJ .
-- Current members and alumni: roster updates supplied by Prof. Han.
+- Current and former members: roster updates supplied by Prof. Han.
+- Eight member portraits and email addresses: `Portrait photos_Han Lab.rar` supplied by Prof. Han, including its `Email.xlsx` roster. Portrait files are preserved as supplied.
 - Visiting scholar affiliation and profile: https://fis.tu-dresden.de/portal/en/researchers/uli-klumper(afb885df-38f9-48dd-8a34-7c7075e18734).html .
 - Planet and research illustrations: custom SVG artwork embedded in the website.
 
