@@ -74,14 +74,14 @@ The shared CityUHK template styles, scripts and logos load from the original Cit
 
 ## Add member photos and email addresses
 
-The PI and visiting scholar retain their visible profile links. For other current members, clicking either the name or portrait reveals the member's email address. The email is hidden on initial page load. The fields are intentionally empty until you supply addresses; an empty field reveals “Email to be added.”
+The PI and visiting scholar retain their visible profile links. For other current members, clicking either the name or portrait reveals the member's email address. The email is hidden on initial page load. The eight supplied member portraits and email addresses are populated. An empty field on any future entry reveals “Email to be added.”
 
-1. Upload a portrait to `img/`, for example `img/weifu-yan.jpg`.
+1. Upload a portrait to `img/`, for example `img/linao-zhu.jpg`.
 2. Find the member in `people.html`. Inside their `member-photo-button`, replace only the `<span class="photo-placeholder" ...>...</span>` with the image below. Keep the surrounding button, its attributes, and the member's name button intact:
 
 ```html
-<img class="member-photo" src="img/weifu-yan.jpg"
-     alt="Dr. Weifu Yan" width="96" height="128" loading="lazy">
+<img class="member-photo" src="img/linao-zhu.jpg"
+     alt="Mr. Linao Zhu" width="1279" height="1706" loading="lazy">
 ```
 
 3. On that member's opening `<article class="member" data-email="">` tag, put the real email address between the empty quotes. For example, replace the illustrative address below with the member's actual address:
@@ -91,6 +91,10 @@ The PI and visiting scholar retain their visible profile links. For other curren
 ```
 
 No separate website link is needed for these members. The email link is generated automatically when clicked. The visitor can click the displayed address to compose an email, and click the name or photo again to hide it. The buttons also work with a keyboard.
+
+Member portraits display at 140 × 210 pixels, with the visiting scholar's square portrait at 140 × 140 pixels. The PI portrait stays larger at 150 pixels wide. Dr. Weifu Yan and Dr. Boyu Peng are listed under **Former members**, each labeled **Former postdoc**.
+
+Keep corresponding updates in `template/people.htm` and `dist/people.html` when maintaining those source copies, so rebuilding does not restore older member details.
 
 The visiting scholar’s supplied portrait is included as `img/uli-klumper.png` (under `dist/` in the source package). Replace this image to update his photo.
 
