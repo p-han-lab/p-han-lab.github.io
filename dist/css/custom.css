@@ -154,6 +154,11 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 .group-site .member-contact-note{font-size:16px;color:#626963;margin:0 0 16px}
 
 .group-site .visiting-photo{height:140px;object-fit:contain;background:none}
+/* Give the visiting scholar's full university name its own unbroken line. */
+.group-site .visiting-member{grid-column:1/-1}
+.group-site .visiting-university{display:inline-block;white-space:nowrap;font-size:clamp(14px,calc(5vw - 2px),17px)}
+@media(max-width:575px){.group-site .visiting-member{grid-template-columns:1fr;gap:16px}}
+
 
 .group-site .home-columns>div:first-child{display:flex;flex-direction:column;align-self:stretch}
 .group-site .affiliation-logos{display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin-top:auto;padding-top:32px}
