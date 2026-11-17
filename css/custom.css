@@ -167,3 +167,19 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 .group-site .sklmeh-logo{display:block;width:108px;height:auto}
 .group-site .affiliation-logos a:first-child{max-width:100%}
 @media(max-width:767px){.group-site .affiliation-logos{margin:0 0 30px;padding-top:16px;gap:20px}.group-site .see-logo{width:260px;height:78px}}
+
+/* News archive and a compact, scannable LinkedIn contact block. */
+.group-site .welcome-links,.group-site .archive-nav{display:flex;flex-wrap:wrap;gap:12px 28px}
+.group-site .welcome-links{margin-top:22px}
+.group-site .welcome-links a,.group-site .archive-link a{font-weight:600}
+.group-site .archive-nav{margin:20px 0 32px}
+.group-site .dated-list li{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #e7e7e7}
+.group-site .dated-list li:last-child{margin-bottom:0}
+.group-site .entry-title{font-weight:600}
+.group-site .dated-list p{color:#505650}
+.group-site .archive-link{margin:16px 0 0}
+.group-site .linkedin-qr{display:block;width:164px;padding:12px;background:#fff;border:1px solid #ddd;border-radius:3px;margin:0 0 12px}
+.group-site .linkedin-qr img{display:block;width:100%;height:auto}
+.group-site .qr-caption{font-size:16px;color:#626963}
+.group-site #group-news,.group-site #events{scroll-margin-top:150px}
+@media(max-width:767px){.group-site .dated-list li{gap:6px}.group-site .dated-list time{font-size:16px}.group-site .welcome-links{gap:12px 22px}}
