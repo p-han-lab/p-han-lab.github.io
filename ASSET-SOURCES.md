@@ -16,3 +16,5 @@ Original ownership and terms of third-party assets remain unchanged.
 
 - SEE logo: https://www.beamsociety.org.hk/-/media/Beam/Beam-Affilate/BA-University-Logo/CityU-logo-01.png (original artwork; surrounding whitespace clipped by CSS).
 - SKLMEH logo: https://www.cityu.edu.hk/ro/-/media/project/cityuhk/admin-department/ro/state-key-laoratories/sklmeh.png .
+
+- `img/penny-han-linkedin-qr.jpg`: LinkedIn QR code supplied by Prof. Penny Han on 17 November 2026; used unchanged.
