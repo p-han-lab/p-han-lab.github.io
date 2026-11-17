@@ -25,7 +25,17 @@ def entries(kind, limit=None):
             if not url.startswith(('https://','http://')): raise ValueError('News links must use http or https')
             title='<a href="'+esc(url)+'">'+title+'</a>'
         out+='<li><time datetime="'+esc(item['date'])+'">'+esc(item.get('display_date',item['date']))+'</time><div><span class="entry-title">'+title+'</span>'
-        if item.get('description') and limit is None: out+='<p>'+esc(item['description'])+'</p>'
+        if item.get('description') and limit is None:
+            description = esc(item['description'])
+            link = item.get('description_link')
+            if link:
+                if not link['url'].startswith(('https://', 'http://')):
+                    raise ValueError('Description links must use http or https')
+                label = esc(link['text'])
+                if label not in description:
+                    raise ValueError('Description link text must appear in description')
+                description = description.replace(label, '<a href="' + esc(link['url']) + '">' + label + '</a>', 1)
+            out += '<p>' + description + '</p>'
         out+='</div></li>'
     return out+'</ul>'
 header=read('header.htm').replace('Web Template 3.0','<span class="lab-name">HAN Lab</span><span class="lab-expansion">Health, Adaptation &amp; Nitrogen</span>')
