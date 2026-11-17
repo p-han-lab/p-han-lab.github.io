@@ -105,11 +105,15 @@
     "url": ""
   },
   {
-    "date": "2025-11",
-    "display_date": "Nov 2025",
-    "title": "Penny speaks at the ISF Microbiology Symposium",
-    "description": "Penny gave an invited talk at the Microbiology Symposium 2025, held at ISF.",
-    "url": ""
+    "date": "2025-11-08",
+    "display_date": "8 Nov 2025",
+    "title": "Penny speaks at the ISF Microbiology Symposium II",
+    "description": "Penny gave an invited talk at Microbiology Symposium II, held at The Independent Schools Foundation (ISF) Academy.",
+    "url": "",
+    "description_link": {
+      "text": "The Independent Schools Foundation (ISF) Academy",
+      "url": "https://academy.isf.edu.hk/"
+    }
   },
   {
     "date": "2025-10-31",
