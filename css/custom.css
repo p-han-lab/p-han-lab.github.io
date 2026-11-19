@@ -143,15 +143,6 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 @media(max-width:1099px){.group-site .members-grid,.group-site .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:767px){.group-site .members-grid{grid-template-columns:1fr;gap:24px}.group-site .gallery-grid{grid-template-columns:1fr}.group-site .member-note{font-size:17px}.group-site .alumni-list li{grid-template-columns:1fr;gap:1px}.group-site .gallery-empty{min-height:200px}}
 
-/* Contact disclosure is retained for the research assistant only. */
-.group-site .member-photo-button{display:block;align-self:start;margin:0;padding:0;border:0;border-radius:3px;background:none;cursor:pointer;color:inherit;font:inherit}
-.group-site .member-photo-button:hover .photo-placeholder,.group-site .member-photo-button:hover .member-photo{border-color:#9b254f}
-.group-site .member-name{display:inline;padding:0;margin:0;border:0;background:none;color:inherit;font:inherit;line-height:inherit;text-align:left;cursor:pointer}
-.group-site .member-name:hover{text-decoration:underline;text-underline-offset:4px;color:#9b254f}
-.group-site .email-icon{display:inline-block;margin-left:7px;color:#9b254f;vertical-align:baseline}
-.group-site .member-email{font-size:16px;line-height:1.55;margin:12px 0 0;color:#555;overflow-wrap:anywhere}
-.group-site .member-email[hidden]{display:none}
-
 .group-site .visiting-photo{height:140px;object-fit:contain;background:none}
 /* Give the visiting scholar's full university name its own unbroken line. */
 .group-site .visiting-member{grid-column:1/-1}
@@ -184,9 +175,9 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 @media(max-width:767px){.group-site .dated-list li{gap:6px}.group-site .dated-list time{font-size:16px}.group-site .welcome-links{gap:12px 22px}}
 
 /* Scientific homepage and research figures, November 2026. */
-.group-site .welcome{grid-template-columns:minmax(0,1.22fr) minmax(300px,1fr);gap:40px;margin-bottom:46px}
-.group-site .science-hero{margin:0;min-width:0}
-.group-site .science-hero img{display:block;width:100%;height:auto;border-radius:12px}
+.group-site .welcome{grid-template-columns:minmax(0,1fr) 340px;gap:42px;margin-bottom:40px}
+.group-site .science-hero{margin:0;min-width:0;align-self:center}
+.group-site .science-hero img{display:block;width:100%;height:auto;border-radius:0}
 .group-site .profile-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;margin:22px 0;font-size:16px}
 .group-site .profile-links>span{flex-basis:100%;color:#555;font-size:16px}
 .group-site .profile-links a{padding:6px 14px;border:1px solid #d9bec7;border-radius:4px;background:#fff;line-height:1.5;font-weight:600;text-decoration:none}
@@ -201,8 +192,8 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 .group-site .research-topic .research-question{font-size:18px;color:#55625e;margin:0 0 24px}
 .group-site .research-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:start}
 .group-site .research-explainer>p{font-size:17px;margin-bottom:20px}
-.group-site .research-figure{margin:0}
-.group-site .research-figure>a{display:block;border-radius:9px;overflow:hidden}
+.group-site .research-figure{margin:22px 0 0;max-width:400px}
+.group-site .research-figure>a{display:block;overflow:hidden;border:1px solid #e3e7e7;background:#fff}
 .group-site .research-figure img{display:block;width:100%;height:auto}
 .group-site .research-figure figcaption{font-size:15px;line-height:1.65;color:#53635f;margin:12px 0 0;padding:0;background:none}
 .group-site .research-reading{border-left:1px solid #e0e7e3;padding-left:28px}
@@ -212,5 +203,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 .group-site .research-publications li:last-child{border:0;margin-bottom:0;padding-bottom:0}
 .group-site .research-publications a{font-weight:600}
 .group-site .research-publications p{font-size:15px;line-height:1.6;color:#5b625f;margin:7px 0 0}
-@media(max-width:900px){.group-site .welcome{grid-template-columns:1fr;gap:26px}.group-site .science-hero{width:100%;max-width:500px;margin:auto}.group-site .research-body{grid-template-columns:1fr;gap:24px}.group-site .research-reading{border-left:0;border-top:1px solid #e0e7e3;padding:24px 0 0}.group-site .research-figure{max-width:600px}}
+@media(max-width:900px){.group-site .welcome{grid-template-columns:1fr;gap:26px}.group-site .science-hero{width:100%;max-width:340px;margin:0 auto}.group-site .research-body{grid-template-columns:1fr;gap:24px}.group-site .research-reading{border-left:0;border-top:1px solid #e0e7e3;padding:24px 0 0}.group-site .research-figure{max-width:400px}}
 @media(max-width:575px){.group-site .research-topic{padding:22px 16px;margin-bottom:24px}.group-site .research-topic h2{font-size:22px}.group-site .research-nav{gap:10px 17px}.group-site .research-topic .research-question{font-size:17px}.group-site .research-publications li{font-size:16px}.group-site .welcome{gap:20px}.group-site .profile-links a{padding:6px 12px}.group-site .research-figure figcaption{font-size:15px}}
+
+.group-site .science-hero figcaption{font-size:14px;line-height:1.5;text-align:center;color:#64706c;margin-top:10px;padding:0;background:none}
