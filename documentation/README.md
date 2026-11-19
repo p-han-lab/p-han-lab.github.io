@@ -76,7 +76,7 @@ The shared CityUHK template styles, scripts and logos load from the original Cit
 
 Edit `template/people.htm`, then run `python build.py`. The build synchronizes the root pages and `dist/`.
 
-Student names and portraits are static. Student email addresses and disclosure controls were removed on 19 November 2026 at the site owner's request. Do not reintroduce them in templates or generated HTML. The research assistant's existing contact control remains available; the PI retains her public contact and profile links.
+Student and research-assistant names and portraits are static. Their email addresses and disclosure controls were removed on 19 November 2026 at the site owner's request. The PI retains her public contact and profile links.
 
 Member portraits display at 140 × 210 pixels; the visiting scholar's supplied landscape portrait uses its natural aspect ratio at 140 pixels wide. The PI portrait is 150 pixels wide. Photo files are in `img/`; the supplied current portraits are `penny-han.jpg` and `uli-klumper.jpg`.
 
@@ -84,7 +84,7 @@ Dr. Uli Klümper is an SKLMEH visiting scholar. His full university name remains
 
 ## Maintain research sections
 
-The four sections live in `template/research.htm`. Original, editable SVG illustrations are in `img/research-*.svg`; the homepage uses `img/microbial-nitrogen-landscape.svg`. Each section includes three selected publications with DOI links. Bibliographic sources are documented in `ASSET-SOURCES.md`. The drawings are conceptual schematics, not experimental data.
+The four sections live in `template/research.htm`. Compact, editable SVG pathway diagrams are in `img/research-*.svg`; the homepage uses `img/microbial-nitrogen-landscape.svg`. Each section includes three selected publications with DOI links. Bibliographic sources are documented in `ASSET-SOURCES.md`. The drawings are conceptual schematics, not experimental data.
 
 ## Add Gallery photos
 
