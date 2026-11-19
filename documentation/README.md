@@ -64,7 +64,7 @@ The hidden `.nojekyll` file tells GitHub to serve these files directly. On a Mac
 
 - Edit the corresponding `.html` file directly; there is no build step.
 - To update news on both pages, edit `index.html` and `news.html`.
-- Add member photos and email addresses in `people.html`, using the examples below.
+- Maintain member portraits and details in `template/people.htm`, then rebuild.
 - Add group photographs and captions in `gallery.html`.
 - Change colors, fonts and layout in `css/custom.css`.
 - Keep local links relative (for example `people.html` and `img/penny-han.jpg`), without a leading slash, so they work under `/CityUHK-han-lab/`.
@@ -72,31 +72,19 @@ The hidden `.nojekyll` file tells GitHub to serve these files directly. On a Mac
 
 The shared CityUHK template styles, scripts and logos load from the original CityUHK servers. Your PI photo is included in this package. The website needs internet access to load those shared assets.
 
-## Add member photos and email addresses
+## Maintain people profiles
 
-The PI and visiting scholar retain their visible profile links. For other current members, clicking either the name or portrait reveals the member's email address. The email is hidden on initial page load. The eight supplied member portraits and email addresses are populated. An empty field on any future entry reveals “Email to be added.”
+Edit `template/people.htm`, then run `python build.py`. The build synchronizes the root pages and `dist/`.
 
-1. Upload a portrait to `img/`, for example `img/linao-zhu.jpg`.
-2. Find the member in `people.html`. Inside their `member-photo-button`, replace only the `<span class="photo-placeholder" ...>...</span>` with the image below. Keep the surrounding button, its attributes, and the member's name button intact:
+Student names and portraits are static. Student email addresses and disclosure controls were removed on 19 November 2026 at the site owner's request. Do not reintroduce them in templates or generated HTML. The research assistant's existing contact control remains available; the PI retains her public contact and profile links.
 
-```html
-<img class="member-photo" src="img/linao-zhu.jpg"
-     alt="Mr. Linao Zhu" width="1279" height="1706" loading="lazy">
-```
+Member portraits display at 140 × 210 pixels; the visiting scholar's supplied landscape portrait uses its natural aspect ratio at 140 pixels wide. The PI portrait is 150 pixels wide. Photo files are in `img/`; the supplied current portraits are `penny-han.jpg` and `uli-klumper.jpg`.
 
-3. On that member's opening `<article class="member" data-email="">` tag, put the real email address between the empty quotes. For example, replace the illustrative address below with the member's actual address:
+Dr. Uli Klümper is an SKLMEH visiting scholar. His full university name remains on one line. Dr. Weifu Yan and Dr. Boyu Peng are listed under **Former members**, each labeled **Former postdoc**.
 
-```html
-<article class="member" data-email="member@example.org">
-```
+## Maintain research sections
 
-No separate website link is needed for these members. The email link is generated automatically when clicked. The visitor can click the displayed address to compose an email, and click the name or photo again to hide it. The buttons also work with a keyboard.
-
-Member portraits display at 140 × 210 pixels, with the visiting scholar's square portrait at 140 × 140 pixels. The PI portrait stays larger at 150 pixels wide. Dr. Weifu Yan and Dr. Boyu Peng are listed under **Former members**, each labeled **Former postdoc**.
-
-Keep corresponding updates in `template/people.htm` and `dist/people.html` when maintaining those source copies, so rebuilding does not restore older member details.
-
-The visiting scholar’s supplied portrait is included as `img/uli-klumper.png` (under `dist/` in the source package). Replace this image to update his photo.
+The four sections live in `template/research.htm`. Original, editable SVG illustrations are in `img/research-*.svg`; the homepage uses `img/microbial-nitrogen-landscape.svg`. Each section includes three selected publications with DOI links. Bibliographic sources are documented in `ASSET-SOURCES.md`. The drawings are conceptual schematics, not experimental data.
 
 ## Add Gallery photos
 
