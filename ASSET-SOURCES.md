@@ -37,3 +37,10 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 - Han, P. et al. (2023). Benzimidazole fungicide biotransformation by comammox Nitrospira bacteria: Transformation pathways and associated proteomic responses. DOI: https://doi.org/10.1016/j.jhazmat.2022.130558 . Bibliographic source: https://scholars.cityu.edu.hk/en/publications/benzimidazole-fungicide-biotransformation-by-comammox-initrospira/ .
 - Zhou, L.-J. et al. (2021). Biotransformation of lincomycin and fluoroquinolone antibiotics by the ammonia oxidizers AOA, AOB and comammox: A comparison of removal, pathways, and mechanisms. DOI: https://doi.org/10.1016/j.watres.2021.117003 . Bibliographic source: https://scholars.cityu.edu.hk/en/publications/biotransformation-of-lincomycin-and-fluoroquinolone-antibiotics-b/ .
 - Zhou, L.-J. et al. (2019). Cometabolic biotransformation and microbial-mediated abiotic transformation of sulfonamides by three ammonia oxidizers. DOI: https://doi.org/10.1016/j.watres.2019.05.031 . Bibliographic source: https://vbn.aau.dk/en/publications/cometabolic-biotransformation-and-microbial-mediated-abiotic-tran/ .
+
+## Follow-up refinements (19 November 2026)
+
+- Replaced the five large decorative illustrations with compact, original SVG pathway diagrams. These are editable vector drawings, not generated raster imagery or experimental results.
+- Removed Yunqiu Xu’s email address and all remaining member-email disclosure code.
+- Reassigned the sulfonamide paper to the greenhouse-gas section and added the following micropollutant paper at Prof. Han’s request.
+- Han, P. et al. (2019). Specific Micropollutant Biotransformation Pattern by the Comammox Bacterium Nitrospira inopinata. Environmental Science & Technology, 53(15), 8695–8705. DOI: https://doi.org/10.1021/acs.est.9b01037 . Source: https://pubs.acs.org/doi/10.1021/acs.est.9b01037 .
