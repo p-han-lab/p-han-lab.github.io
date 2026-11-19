@@ -234,9 +234,15 @@ body.figure-viewing{overflow:hidden}
 @media(max-width:1000px){.group-site .welcome{grid-template-columns:1fr;gap:24px}.group-site .science-hero{margin:0 auto}}
 @media(max-width:575px){.group-site .profile-links{gap:12px 18px}.group-site .profile-links a{padding:4px 0;font-size:14px}.group-site .profile-icon{width:26px;height:26px}.figure-dialog-header{padding:10px;gap:10px}.figure-dialog-header h2{font-size:14px}.figure-dialog-actions{gap:10px;font-size:12px}}
 
-/* Member email disclosures are closed by default and work without JavaScript. */
-.group-site .member-contact{margin-top:8px;font-size:15px;line-height:1.5;min-width:0}
-.group-site .member-contact summary{display:list-item;width:fit-content;min-height:32px;padding:4px 0;cursor:pointer;color:#8c234a;font-weight:600}
+/* Full-width contact rows keep revealed email addresses on one line. */
+.group-site .member:not(.visiting-member){row-gap:8px}
+.group-site .member-contact{grid-column:1/-1;margin:0;font-size:15px;line-height:1.5;min-width:0;align-self:start}
+.group-site .member-contact summary{display:inline-flex;align-items:center;gap:7px;width:fit-content;min-height:32px;padding:4px 0;cursor:pointer;color:#8c234a;font-weight:600;list-style:none}
+.group-site .member-contact summary::-webkit-details-marker{display:none}
 .group-site .member-contact summary:hover{text-decoration:underline;text-underline-offset:3px}
 .group-site .member-contact summary:focus-visible{outline:3px solid #956b19;outline-offset:4px}
-.group-site .member-contact>a{overflow-wrap:anywhere}
+.group-site .email-envelope{flex:none}
+.group-site .member-contact .email-hide{display:none}
+.group-site .member-contact[open] .email-show{display:none}
+.group-site .member-contact[open] .email-hide{display:inline}
+.group-site .member-contact>a{display:block;width:max-content;white-space:nowrap;overflow-wrap:normal}
