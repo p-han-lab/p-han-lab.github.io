@@ -20,7 +20,7 @@ Original ownership and terms of third-party assets remain unchanged.
 - `img/penny-han-linkedin-qr.jpg`: LinkedIn QR code supplied by Prof. Penny Han on 17 November 2026; used unchanged.
 
 - Student email addresses were removed from current templates and pages on 19 November 2026 at Prof. Han’s request.
-- Lisa Stein’s visit (2–6 May 2026), Graeme Nicol’s visit (29–31 May 2026), and Uli Klümper’s SKLMEH visiting-scholar role: corrections supplied by Prof. Han on 19 November 2026.
+- Lisa Stein’s visit (2–6 May 2026), Graeme Nicol’s visit (28–31 May 2026), and Uli Klümper’s SKLMEH visiting-scholar role: corrections supplied by Prof. Han on 19 November 2026.
 
 ## Research illustrations and selected publications (19 November 2026)
 
