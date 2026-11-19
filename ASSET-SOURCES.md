@@ -44,3 +44,9 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 - Removed Yunqiu Xu’s email address and all remaining member-email disclosure code.
 - Reassigned the sulfonamide paper to the greenhouse-gas section and added the following micropollutant paper at Prof. Han’s request.
 - Han, P. et al. (2019). Specific Micropollutant Biotransformation Pattern by the Comammox Bacterium Nitrospira inopinata. Environmental Science & Technology, 53(15), 8695–8705. DOI: https://doi.org/10.1021/acs.est.9b01037 . Source: https://pubs.acs.org/doi/10.1021/acs.est.9b01037 .
+
+## Supplied polished figures (20 November 2026)
+
+- `home-research-v4.webp` and the four `research-*-v4.webp` assets are full-slide exports from Prof. Han's supplied `Han Lab research figures_v4.pptx`: slide 1 for Home; slides 2–5 for ecology, environmental change, greenhouse gases, and water treatment, respectively.
+- Exported at 1920 × 1344 pixels and stored in lossless WebP format. The website keeps previews at a maximum width of 400 pixels and offers an accessible enlarged view and original-resolution image link.
+- The supplied green iD icon reference identifies ORCID. Penny's existing ORCID profile is shown as Research ID, between CityUHK and Google Scholar, followed by LinkedIn. The same shared profile-link template is used on Home and People.
