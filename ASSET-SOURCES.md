@@ -60,3 +60,5 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 
 - Removed the Explore our research and Meet the team links from the homepage.
 - Restored the supplied contact addresses for seven current students and the research assistant as native HTML details disclosures, closed by default and opened by click or keyboard. Source: Email.xlsx supplied with Portrait photos_Han Lab.rar, with Zhengyao Hu’s CityUHK address corrected per Prof. Han’s subsequent instruction.
+
+- Follow-up: member contacts now use an envelope icon with Show email / Hide email. Each disclosure occupies the full card width, keeping revealed addresses on one line on desktop and mobile.
