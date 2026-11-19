@@ -233,3 +233,10 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 body.figure-viewing{overflow:hidden}
 @media(max-width:1000px){.group-site .welcome{grid-template-columns:1fr;gap:24px}.group-site .science-hero{margin:0 auto}}
 @media(max-width:575px){.group-site .profile-links{gap:12px 18px}.group-site .profile-links a{padding:4px 0;font-size:14px}.group-site .profile-icon{width:26px;height:26px}.figure-dialog-header{padding:10px;gap:10px}.figure-dialog-header h2{font-size:14px}.figure-dialog-actions{gap:10px;font-size:12px}}
+
+/* Member email disclosures are closed by default and work without JavaScript. */
+.group-site .member-contact{margin-top:8px;font-size:15px;line-height:1.5;min-width:0}
+.group-site .member-contact summary{display:list-item;width:fit-content;min-height:32px;padding:4px 0;cursor:pointer;color:#8c234a;font-weight:600}
+.group-site .member-contact summary:hover{text-decoration:underline;text-underline-offset:3px}
+.group-site .member-contact summary:focus-visible{outline:3px solid #956b19;outline-offset:4px}
+.group-site .member-contact>a{overflow-wrap:anywhere}
