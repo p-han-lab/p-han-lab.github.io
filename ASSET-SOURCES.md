@@ -55,3 +55,8 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 
 - Renamed Research ID to ORCID on Home and People; removed the Email Penny link from the People page at Prof. Han’s request.
 - Replaced the sulfonamide paper in the greenhouse-gas section with Sun, D. et al. (2022), Chlorate as a comammox Nitrospira specific inhibitor reveals nitrification and N₂O production activity in coastal wetland. Soil Biology and Biochemistry, 173, 108782. DOI: https://doi.org/10.1016/j.soilbio.2022.108782 . Publisher record: https://www.sciencedirect.com/science/article/pii/S0038071722002395 .
+
+## Member contact and homepage revisions (20 November 2026)
+
+- Removed the Explore our research and Meet the team links from the homepage.
+- Restored the supplied contact addresses for seven current students and the research assistant as native HTML details disclosures, closed by default and opened by click or keyboard. Source: Email.xlsx supplied with Portrait photos_Han Lab.rar, with Zhengyao Hu’s CityUHK address corrected per Prof. Han’s subsequent instruction.
