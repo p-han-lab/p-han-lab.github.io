@@ -49,4 +49,9 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 
 - `home-research-v4.webp` and the four `research-*-v4.webp` assets are full-slide exports from Prof. Han's supplied `Han Lab research figures_v4.pptx`: slide 1 for Home; slides 2–5 for ecology, environmental change, greenhouse gases, and water treatment, respectively.
 - Exported at 1920 × 1344 pixels and stored in lossless WebP format. The website keeps previews at a maximum width of 400 pixels and offers an accessible enlarged view and original-resolution image link.
-- The supplied green iD icon reference identifies ORCID. Penny's existing ORCID profile is shown as Research ID, between CityUHK and Google Scholar, followed by LinkedIn. The same shared profile-link template is used on Home and People.
+- The supplied green iD icon reference identifies ORCID. Penny's existing ORCID profile is shown as ORCID, between CityUHK and Google Scholar, followed by LinkedIn. The same shared profile-link template is used on Home and People.
+
+## Profile and publication corrections (20 November 2026)
+
+- Renamed Research ID to ORCID on Home and People; removed the Email Penny link from the People page at Prof. Han’s request.
+- Replaced the sulfonamide paper in the greenhouse-gas section with Sun, D. et al. (2022), Chlorate as a comammox Nitrospira specific inhibitor reveals nitrification and N₂O production activity in coastal wetland. Soil Biology and Biochemistry, 173, 108782. DOI: https://doi.org/10.1016/j.soilbio.2022.108782 . Publisher record: https://www.sciencedirect.com/science/article/pii/S0038071722002395 .
