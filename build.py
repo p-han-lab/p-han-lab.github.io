@@ -24,6 +24,14 @@ def entries(kind, limit=None):
         if url:
             if not url.startswith(('https://','http://')): raise ValueError('News links must use http or https')
             title='<a href="'+esc(url)+'">'+title+'</a>'
+        elif item.get('title_link'):
+            link = item['title_link']
+            if not link['url'].startswith(('https://', 'http://')):
+                raise ValueError('Title links must use http or https')
+            label = esc(link['text'])
+            if not label or label not in title:
+                raise ValueError('Title link text must appear in title')
+            title = title.replace(label, '<a href="' + esc(link['url']) + '">' + label + '</a>', 1)
         out+='<li><time datetime="'+esc(item['date'])+'">'+esc(item.get('display_date',item['date']))+'</time><div><span class="entry-title">'+title+'</span>'
         if item.get('description') and limit is None:
             description = esc(item['description'])
