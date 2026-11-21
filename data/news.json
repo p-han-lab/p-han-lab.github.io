@@ -32,7 +32,15 @@
     "display_date": "7 Jul 2026",
     "title": "Penny attended the SKLMEH 2025 Annual and Academic Committee Meeting",
     "description": "Prof. Penny Han attended the SKLMEH 2025 Annual and Academic Committee Meeting on 7 July 2026 at City University of Hong Kong.",
-    "url": ""
+    "url": "",
+    "title_link": {
+      "text": "SKLMEH",
+      "url": "https://www.cityu.edu.hk/sklmeh/"
+    },
+    "description_link": {
+      "text": "SKLMEH",
+      "url": "https://www.cityu.edu.hk/sklmeh/"
+    }
   },
   {
     "date": "2026-07",
