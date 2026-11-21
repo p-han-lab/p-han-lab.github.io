@@ -247,11 +247,11 @@ body.figure-viewing{overflow:hidden}
 .group-site .member-contact[open] .email-hide{display:inline}
 .group-site .member-contact>a{position:absolute;top:calc(100% + 4px);right:0;z-index:5;display:block;width:max-content;box-sizing:border-box;white-space:nowrap;overflow-wrap:normal;padding:8px 10px;border:1px solid #d9c2ca;border-radius:4px;background:#fff;box-shadow:0 4px 14px #38212b20}
 
-/* Gallery: original photos, newest first, with uncropped previews. */
-.group-site .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:24px;align-items:start}
+/* Gallery: one column with the original uncropped preview size. */
+.group-site .gallery-grid{grid-template-columns:minmax(0,1fr);max-width:calc((100% - 28px)/2);gap:28px;margin-top:24px;align-items:start}
 .group-site .gallery-item .figure-open img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f3f6f5}
 .group-site .gallery-item .figure-open:focus-visible{outline:3px solid #315b58;outline-offset:4px}
-@media(max-width:767px){.group-site .gallery-grid{grid-template-columns:1fr;gap:24px}}
+@media(max-width:767px){.group-site .gallery-grid{grid-template-columns:1fr;max-width:none;gap:24px}}
 
 /* Concise research descriptions and opportunities, November 2026. */
 .group-site .research-topic h2{margin-bottom:24px}
