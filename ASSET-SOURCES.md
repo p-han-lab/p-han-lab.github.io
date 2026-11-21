@@ -64,3 +64,8 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 - Follow-up: member contacts now use an envelope icon with Show email / Hide email. Each disclosure occupies the full card width, keeping revealed addresses on one line on desktop and mobile.
 
 - Placement refinement: moved each envelope and Show email control immediately beneath the member’s name. Revealed addresses use a single-line contact popup within the card width, retaining the existing portrait grid.
+
+## Gallery photos (22 November 2026)
+
+- Seven original JPEG photos extracted unchanged from Prof. Han’s supplied `Gallery.pptx`, with captions based on each slide. Events follow reverse slide order (6 to 1), as requested; the two photos on slide 5 remain together. No dates were supplied in the slide captions.
+- Photos use uncropped previews and link to their original resolution.
