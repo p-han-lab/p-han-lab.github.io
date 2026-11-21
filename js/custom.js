@@ -11,11 +11,10 @@ if (figureLinks.length && typeof HTMLDialogElement !== 'undefined') {
   const dialog = document.createElement('dialog');
   dialog.className = 'figure-dialog';
   dialog.setAttribute('aria-labelledby', 'figure-dialog-title');
-  dialog.innerHTML = '<div class="figure-dialog-header"><h2 id="figure-dialog-title"></h2><div class="figure-dialog-actions"><a target="_blank" rel="noopener">Full resolution ↗</a><button class="figure-dialog-close" type="button" aria-label="Close figure">×</button></div></div><img class="figure-dialog-image" alt="">';
+  dialog.innerHTML = '<div class="figure-dialog-header"><h2 id="figure-dialog-title"></h2><div class="figure-dialog-actions"><button class="figure-dialog-close" type="button" aria-label="Close figure">×</button></div></div><img class="figure-dialog-image" alt="">';
   document.body.append(dialog);
   const fullImage = dialog.querySelector('img');
   const heading = dialog.querySelector('h2');
-  const fullLink = dialog.querySelector('a');
   figureLinks.forEach(link => {
     link.setAttribute('aria-haspopup', 'dialog');
     link.addEventListener('click', event => {
@@ -24,7 +23,6 @@ if (figureLinks.length && typeof HTMLDialogElement !== 'undefined') {
       fullImage.src = link.href;
       fullImage.alt = link.querySelector('img').alt;
       heading.textContent = link.dataset.figureTitle;
-      fullLink.href = link.href;
       dialog.showModal();
       document.body.classList.add('figure-viewing');
     });
