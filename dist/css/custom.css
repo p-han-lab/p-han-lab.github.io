@@ -145,7 +145,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #956b19;outline-offset:4p
 
 .group-site .visiting-photo{height:140px;object-fit:contain;background:none}
 /* Give the visiting scholar's full university name its own unbroken line. */
-.group-site .visiting-member{grid-column:1/-1;grid-template-columns:240px minmax(0,1fr);gap:24px;align-items:center}
+.group-site .visiting-member{grid-column:1/-1;grid-template-columns:192px minmax(0,1fr);gap:24px;align-items:center}
 .group-site .visiting-university{display:inline-block;white-space:nowrap;font-size:clamp(14px,calc(5vw - 2px),17px)}
 @media(max-width:767px){.group-site .visiting-member{grid-template-columns:1fr;gap:16px}}
 
@@ -263,3 +263,4 @@ body.figure-viewing{overflow:hidden}
 .group-site .research-opportunities h2{font-size:22px;margin-bottom:12px}
 .group-site .opportunity-contact{margin-top:30px;padding-top:20px;border-top:1px solid #ddd}
 @media(min-width:1200px){.cityu-menu .cityu-menu-main .nav-link{padding-left:14px;padding-right:14px}}
+
