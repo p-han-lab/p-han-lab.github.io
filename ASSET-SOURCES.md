@@ -69,3 +69,11 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 
 - Seven original JPEG photos extracted unchanged from Prof. Han’s supplied `Gallery.pptx`, with captions based on each slide. Events follow reverse slide order (6 to 1), as requested; the two photos on slide 5 remain together. No dates were supplied in the slide captions.
 - Photos use uncropped previews and link to their original resolution.
+
+## Homepage cell-structure correction (22 November 2026)
+
+- `home-research-prokaryotes-v5.png` is a targeted edit of the supplied slide-1 homepage figure (`home-research-v4.webp`), made with the built-in image-generation tool at Prof. Han's request.
+- AOA/AOB, NOB, and comammox cells now show an unbounded DNA nucleoid and small ribosome dots. Golgi/ER-like stacks, mitochondrion-like shapes, and other large enclosed bodies were removed. The comammox cell envelope was simplified. Existing habitat panels, Earth, title, reaction pathways, and methods remain in place.
+- Stored as an opaque RGB PNG at 1499 × 1049 pixels. The compact preview and click-to-enlarge interaction are unchanged. The original supplied asset is retained.
+- The shared homepage/contact-page contact name is now Prof. Ping (Penny) Han.
+
