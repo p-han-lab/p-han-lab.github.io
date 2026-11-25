@@ -85,3 +85,11 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 - Generated at 1536 × 1024 pixels on an opaque white background and encoded as a high-quality JPEG for faster loading. The compact homepage layout and click-to-enlarge interaction are retained. Research-topic figures are unchanged.
 - Previous homepage assets remain available in the repository.
 
+
+## Asia-Pacific homepage revision (25 November 2026)
+
+- `home-planetary-impact-asia-pacific-v7.jpg` is a targeted edit of the abstract homepage artwork, made with the built-in image-generation tool at Prof. Han's request.
+- Rotated the globe to feature Asia and the western Pacific, with Australia and New Zealand below. Added “Small microbes, planetary impact” in the artwork's upper-left corner. The underlying microbial forms, flowing ribbons, palette and white background are retained.
+- The title is now inside the image; the duplicate caption below the preview has been removed. The same title remains in the accessible image description and enlarged-view label.
+- Image dimensions remain 1536 × 1024, encoded as a high-quality JPEG. Previous artwork versions are retained.
+
