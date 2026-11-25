@@ -77,3 +77,11 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 - Stored as an opaque RGB PNG at 1499 × 1049 pixels. The compact preview and click-to-enlarge interaction are unchanged. The original supplied asset is retained.
 - The shared homepage/contact-page contact name is now Prof. Ping (Penny) Han.
 
+
+## Abstract planetary homepage artwork (25 November 2026)
+
+- `home-planetary-impact-v6.jpg` is a new conceptual illustration created with the built-in image-generation tool at Prof. Han's request. It replaces the detailed homepage process diagram with a prominent Earth and a small group of abstract microbial forms linked by flowing blue-green shapes.
+- The caption remains “Small microbes, planetary impact”. The image is an artistic metaphor, not experimental data or a mechanistic diagram. Microbes have no internal organelle drawings.
+- Generated at 1536 × 1024 pixels on an opaque white background and encoded as a high-quality JPEG for faster loading. The compact homepage layout and click-to-enlarge interaction are retained. Research-topic figures are unchanged.
+- Previous homepage assets remain available in the repository.
+
