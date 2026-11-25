@@ -93,3 +93,11 @@ Original SVG conceptual schematics created for HAN Lab; no publisher figures rep
 - The title is now inside the image; the duplicate caption below the preview has been removed. The same title remains in the accessible image description and enlarged-view label.
 - Image dimensions remain 1536 × 1024, encoded as a high-quality JPEG. Previous artwork versions are retained.
 
+
+
+## Homepage globe: broader continental view (25 November 2026)
+
+- Asset: `img/home-planetary-impact-global-v8.jpg` (also included in `dist/img/`).
+- Revised from the approved Asia-Pacific v7 artwork using the built-in image editing tool. The globe now includes parts of Europe and Africa at the left and a small Antarctic rim while retaining the Asia-Pacific emphasis, abstract microbial forms, flowing ribbons, and the title "Small microbes, planetary impact".
+- Conceptual scientific illustration, not observational data. The original generated PNG and edit prompt are retained in the project workspace. Existing v7 artwork remains available.
+
